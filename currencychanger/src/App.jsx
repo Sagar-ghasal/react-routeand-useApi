@@ -9,9 +9,11 @@ function App() {
   const [to , setTo] = useState("inr");
   const [convertedAmount, setConvertedAmount] = useState(0);
 
-  const currencyInfo = useCurrencyInfo(from);
+  const currencyInfo = useCurrencyInfo("inr");
 
  const options =  Object.keys(currencyInfo)
+
+ console.log(options)
  
  const swap = () =>{
   setFrom(to);
