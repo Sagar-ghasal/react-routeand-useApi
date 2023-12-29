@@ -54,3 +54,38 @@ function InputBox({
 }
 
 export default InputBox;
+
+
+// select box manage
+// import React, { useState } from "react";
+
+// const CurrencyConverter = () => {
+//     const [value, setValue] = useState("")
+
+//     const handleSubmit = (e) =>{
+//         e.preventDefault();
+//         console.log(value)
+
+//     }
+
+//   return (
+//     <>
+//       <h1>this is currency convertor</h1>
+//       <form onSubmit={handleSubmit}>
+//         <select value={value} onChange={(e)=>setValue(e.target.value)} >
+//         <option disabled value="">select a value</option>
+//           <option value="someOption">some option</option>
+//           <option value="otherOption1">Other option1</option>
+//           <option value="otherOption2">Other option2</option>
+//           <option value="otherOption3">Other option3</option>
+//           <option value="otherOption4">Other option4</option>
+//           <option value="otherOption5">Other option5</option>
+//         </select>
+//         <button type="submit"  >submit</button>
+//       </form>
+//     </>
+//   );
+// };
+
+// export default CurrencyConverter;
+
